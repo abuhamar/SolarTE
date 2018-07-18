@@ -16,7 +16,7 @@
                 </description>
             </about>
             <note id="note">
-                <contents>file://advte_intro.html</contents>
+                <contents>file://solarte_intro.html</contents>
             </note>
         </phase>
                <!--PHASE TWO-->
@@ -81,7 +81,7 @@
                             <default>10</default>
                         </number>
                     </group>
-                    <group id="fillfact">
+                    <group id="Fill_Fact">
 		<about><enable>input.phase(mat).group(horizontal).group(ind).choice(choice) == 3
                         </enable></about>
                         <number id="min">
@@ -513,7 +513,7 @@
 		<label>Power Output (W)</label>
             </yaxis>
         </curve>
-        <curve id="TEEff">
+        <curve id="Eff_TE">
             <about>
                 <label>Thermoelectric Efficiency</label>
             </about>
@@ -521,7 +521,7 @@
 				<label> Thermoelectric Efficiency (%)</label>
             </yaxis>
         </curve>
-        <curve id="SEff">
+        <curve id="Eff_system">
             <about>
                 <label>System Efficiency</label>
             </about>
