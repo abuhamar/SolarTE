@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; line-height: 14.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 13.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 10.0px Times; text-decoration: underline ; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><b>SolarTE: Solar Thermoelectric Power Generation Simulator for Waste Heat Recovery and Energy Harvesting</b></span></p>
+<p class="p2"><span class="s1">Welcome to SolarTE simulation tool! This tool allows you to perform realistic power generation performance simulations of a multi-element thermoelectric module for waste heat recovery and energy harvesting applications.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Unlike many other TE simulation tools, SolarTE can simulate with temperature-dependent material properties, i.e. Seebeck coefficient, electrical conductivity, thermal conductivity as a function of temperature, for accurate TE performance prediction. Several important materials such as BiTe alloys, MgSnSi, and SiGe are already included in the built-in database in the tool, so you can simply choose one of the materials from the pull-down menu for materials choice, and run the simulation. The material properties included in the built-in database have been extracted from the following references.<br>
+<br>
+n-type materials:<span class="Apple-converted-space"> </span></span></p>
+<ul class="ul1">
+  <li class="li3"><span class="s1">n-type Bi2Te2.7Se0.3: Yan et al., Nano Lett. 10, 3373 (2010).</span></li>
+  <li class="li3"><span class="s1">n-type Mg2Si0.4Sn0.6: Liu et al., Phys. Rev. Lett. 108, 166601 (2012).</span></li>
+  <li class="li3"><span class="s1">n-type Si0.8Ge0.2: Wang et al., Appl. Phys. Lett. 93, 193121 (2008).</span></li>
+</ul>
+<p class="p3"><span class="s1">p-type materials:</span></p>
+<ul class="ul1">
+  <li class="li3"><span class="s1">p-type Bi0.5Sb1.5Te3: Poudel et al., Science 320, 634 (2008).</span></li>
+  <li class="li3"><span class="s1">p-type PbTe: Wang et al., Proc. Natl. Acad. Sci. 111, 10949 (2014). (QH sample)</span></li>
+  <li class="li3"><span class="s1">p-type Si0.8Ge0.2: Joshi et al., Nano Lett. 8, 4670 (2008).</span></li>
+</ul>
+<p class="p4"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">Also, you can upload your own material properties file. Please check <a href="https://nanohub.org/resources/23357/download/ADVTE_material_properties_example_file.csv"><span class="s2">this example file</span></a> to see how to make your own material data file.</span></p>
+<p class="p2"><span class="s1">Boundary conditions are the temperatures of the heat source and the ambient. At each hot/cold side, a heat sink (or substrate) exists to interface between the TE elements and the heat source or ambient. User needs to specify the heat transfer coefficient of the heat sink at each side. The fill factor F, which is defined as area coverage by TE elements, is an important design parameter. The number of element pairs N is not a user input, but instead obtained from N = (Fill factor) x (total area) /(area of a n-type element + area of a p-type element). The electrical resistance and Seebeck coefficient of the metal electrodes are assumed to be negligibly small.<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1">Several design parameters such as TE element thickness, area, and load resistance are available to be chosen as an independent variable. The simulation results will be plotted as a function of that independent variable after the simulation is done.<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
